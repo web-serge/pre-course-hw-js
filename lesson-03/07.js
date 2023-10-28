@@ -4,5 +4,5 @@ const numbers = [
     [111, 200, 333, 400, 555],
 ];
 
-const array = numbers.map(arr => arr.filter(el => el % 2 !== 0))
+const array = numbers.map(arr => arr.filter(el => el % 2 === 0))
 console.log(array)
